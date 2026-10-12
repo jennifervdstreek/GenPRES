@@ -1,5 +1,5 @@
 ---
-last_commit_released: 95425d4fd991b233399fed20924b12278ad8d37a
+last_commit_released: 42ca801d5abe0134a939449c69bb9305b4ff5feb
 pre_release: alpha
 name: GenPRES
 updaters:
@@ -20,6 +20,18 @@ All notable changes to GenPRES will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## 0.1.2-alpha.46 - 2026-10-12
+
+### 🐞 Bug Fixes
+
+* *(client)* Keep the order and picks on a refused change ([0de6430a](https://github.com/jennifervdstreek/GenPRES/commit/0de6430af0607eddfe6b8a8c7ce21d6bd360d24f))
+* *(client)* Keep a refused selection on its scenario ([fd7d7894](https://github.com/jennifervdstreek/GenPRES/commit/fd7d7894bc0fe860c85fc6a025630840d10082ab))
+* *(genorder)* Offer reachable rounded dose values ([be6e047b](https://github.com/jennifervdstreek/GenPRES/commit/be6e047b81165da322412c2ffe0b82e4d97c4374))
+* *(genorder)* Tie item concentrations to the component share ([b3d654c8](https://github.com/jennifervdstreek/GenPRES/commit/b3d654c890e66dd30224c97a532e5faa64c819cc))
+* *(genorder)* Report a pick that cannot be solved ([9743852a](https://github.com/jennifervdstreek/GenPRES/commit/9743852aedba8d601b0d187b04a10740389a1331))
+
+<strong><small>[View changes on Github](https://github.com/jennifervdstreek/GenPRES/compare/95425d4fd991b233399fed20924b12278ad8d37a..42ca801d5abe0134a939449c69bb9305b4ff5feb)</small></strong>
 
 ## 0.1.2-alpha.45 - 2026-10-10
 
