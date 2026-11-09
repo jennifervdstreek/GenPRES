@@ -1,5 +1,5 @@
 ---
-last_commit_released: 992df049e9e54e53505df995ca5232e6164311ae
+last_commit_released: 03aca5e3ebfb1e031c2ef209139d92baf0795ccf
 pre_release: alpha
 name: GenPRES
 updaters:
@@ -20,6 +20,26 @@ All notable changes to GenPRES will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## 0.1.2-alpha.50 - 2026-11-09
+
+### 🐞 Bug Fixes
+
+* *(client)* Round doses below 0.1 to the asked precision ([35d063e7](https://github.com/jennifervdstreek/GenPRES/commit/35d063e732ead87f576530bd59709e211cacd165))
+* *(client)* Round the stepped quantity prediction ([075f74ab](https://github.com/jennifervdstreek/GenPRES/commit/075f74ab39bd153395970315d68a3c02fba20ed9))
+* *(client)* Sign an order plan with every order removed ([a7dd5e46](https://github.com/jennifervdstreek/GenPRES/commit/a7dd5e46e88996e7af7e2db93aa8fbe9800774ad))
+* *(client)* Let the user confirm a filled-in value ([1541a371](https://github.com/jennifervdstreek/GenPRES/commit/1541a371dee96696568272735c5c6ed3ef7ec2d0))
+* *(gencore)* Need the gestational age under 28 days ([5207ce8f](https://github.com/jennifervdstreek/GenPRES/commit/5207ce8f3bb4b4b20c9a69f888f26726ec1935ee))
+* *(genform)* Refuse a dose rule value without its unit ([fff93f47](https://github.com/jennifervdstreek/GenPRES/commit/fff93f47ba3629475c43795ce42f30269e77346e))
+* *(genorder)* Take the large step the client is shown ([57435f13](https://github.com/jennifervdstreek/GenPRES/commit/57435f1390c796a2822f041c9c6a89218283cfcd))
+* *(genorder)* Keep the calculated increment as the large step floor ([73e83def](https://github.com/jennifervdstreek/GenPRES/commit/73e83def0f82147c955766dae89ada2f2e6e13b7))
+* *(genorder)* Widen a rate adjust norm on the orderable ([1dbdb5e8](https://github.com/jennifervdstreek/GenPRES/commit/1dbdb5e8b2803f039bd3bde54e7a2e6e0a03a3f4))
+* *(server)* Pick the single composition of a nutrition slot ([cc8cdc08](https://github.com/jennifervdstreek/GenPRES/commit/cc8cdc08824c04e744dc369bbfbaecf93f8dd1d2))
+* *(ui)* Keep the prescription line in place under a notice ([1a951dd3](https://github.com/jennifervdstreek/GenPRES/commit/1a951dd382513a2ed2541580284a6eff0c9090a9))
+* *(ui)* Mark the clicked row, not the cell, in list tables ([5e1fdf3e](https://github.com/jennifervdstreek/GenPRES/commit/5e1fdf3e82d23bc602bf5ae278cebf907e0e3015))
+* *(ui)* Mark the card of the open order on small screens ([954dc237](https://github.com/jennifervdstreek/GenPRES/commit/954dc2376ae9ad2116b0394e7caa541b28509033))
+
+<strong><small>[View changes on Github](https://github.com/jennifervdstreek/GenPRES/compare/992df049e9e54e53505df995ca5232e6164311ae..03aca5e3ebfb1e031c2ef209139d92baf0795ccf)</small></strong>
 
 ## 0.1.2-alpha.49 - 2026-11-08
 
