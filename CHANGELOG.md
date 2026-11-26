@@ -1,5 +1,5 @@
 ---
-last_commit_released: a3b03aea9bdc702d25c15a9c8f77147d96f4c842
+last_commit_released: 629e571395b6219579896758821ecc9e5c481a6e
 pre_release: alpha
 name: GenPRES
 updaters:
@@ -20,6 +20,18 @@ All notable changes to GenPRES will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## 0.1.2-alpha.61 - 2026-11-26
+
+### 🚀 Features
+
+* *(genform)* Read the solution rule value columns ([ea09788b](https://github.com/jennifervdstreek/GenPRES/commit/ea09788b0d4b29df7de974e1c8d67c11ed478f55))
+
+### 🐞 Bug Fixes
+
+* *(genform)* Ignore the source text in the row checks ([1b55ff1c](https://github.com/jennifervdstreek/GenPRES/commit/1b55ff1c616354976d9a197907f4dcd4fc1778ec))
+
+<strong><small>[View changes on Github](https://github.com/jennifervdstreek/GenPRES/compare/a3b03aea9bdc702d25c15a9c8f77147d96f4c842..629e571395b6219579896758821ecc9e5c481a6e)</small></strong>
 
 ## 0.1.2-alpha.60 - 2026-11-24
 
